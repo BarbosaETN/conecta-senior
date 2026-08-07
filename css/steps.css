@@ -1,8 +1,6 @@
 .steps {
 
-    position: relative;
-
-    padding: var(--section-spacing) 0 140px;
+    padding: var(--section-spacing) 0;
 
 }
 
@@ -78,20 +76,3 @@
 
 }
 
-/* Divisor entre Steps e Closing */
-
-.steps::after {
-
-    content: "";
-
-    display: block;
-
-    width: 120px;
-
-    height: 2px;
-
-    background: #E2E8F0;
-
-    margin: 100px auto 0;
-
-}

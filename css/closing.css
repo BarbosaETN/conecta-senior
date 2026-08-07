@@ -1,6 +1,8 @@
 .closing {
 
-    padding: 120px 0;
+    padding: 80px 20px 120px;
+
+    margin-top: 80px;
 
     background: var(--background-alt);
 
@@ -8,7 +10,7 @@
 
 .closing .container {
 
-    max-width: 900px;
+    max-width: 850px;
 
     margin: auto;
 
@@ -30,13 +32,15 @@
 
     margin-bottom: 25px;
 
+    color: var(--text);
+
 }
 
 .closing p {
 
     font-size: 1.15rem;
 
-    line-height: 2;
+    line-height: 1.9;
 
     color: var(--text-light);
 
