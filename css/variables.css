@@ -1,29 +1,33 @@
-:root {
+:root{
 
-    /* Colors */
+    /* COLORS */
 
-    --primary: #2563EB;
-    --primary-light: #DBEAFE;
+    --primary:#2563EB;
+    --primary-light:#DBEAFE;
 
-    --background: #FFFFFF;
-    --background-alt: #F8FAFC;
+    --background:#FFFFFF;
+    --background-alt:#F8FAFC;
 
-    --text: #1E293B;
-    --text-light: #64748B;
+    --text:#1E293B;
+    --text-light:#64748B;
 
-    --success: #16A34A;
-    --danger: #DC2626;
+    --success:#16A34A;
+    --danger:#DC2626;
 
-    /* Sizes */
+    /* LAYOUT */
 
-    --container: 1200px;
+    --container-width:1200px;
 
-    /* Border */
+    --section-spacing:100px;
 
-    --radius: 16px;
+    --radius:16px;
 
-    /* Shadow */
+    /* SHADOW */
 
-    --shadow: 0 8px 30px rgba(0,0,0,.08);
+    --shadow-light:0 8px 30px rgba(0,0,0,.08);
+
+    /* TRANSITIONS */
+
+    --transition:.3s;
 
 }

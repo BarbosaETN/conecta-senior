@@ -1,0 +1,62 @@
+.benefits{
+
+    padding:100px 0;
+
+    background:var(--background-alt);
+
+}
+
+.benefits-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+}
+
+.benefit{
+
+    text-align:center;
+
+}
+
+.benefit i{
+
+    width:80px;
+    height:80px;
+
+    border-radius:50%;
+
+    background:var(--primary-light);
+
+    color:var(--primary);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    margin:auto;
+
+    font-size:2rem;
+
+    margin-bottom:25px;
+
+}
+
+.benefit h3{
+
+    margin-bottom:15px;
+
+}
+
+.benefit p{
+
+    color:var(--text-light);
+
+    line-height:1.7;
+
+}
