@@ -1,0 +1,93 @@
+.footer{
+
+    background:#0F172A;
+
+    color:white;
+
+    padding:70px 0 0;
+
+}
+
+.footer-content{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr;
+
+    gap:60px;
+
+}
+
+.footer h2{
+
+    font-size:2rem;
+
+}
+
+.footer h2 span{
+
+    color:var(--primary);
+
+}
+
+.footer-brand p{
+
+    margin-top:20px;
+
+    color:#CBD5E1;
+
+    line-height:1.7;
+
+}
+
+.footer h3{
+
+    margin-bottom:20px;
+
+}
+
+.footer ul{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.footer a{
+
+    color:#CBD5E1;
+
+    transition:var(--transition);
+
+}
+
+.footer a:hover{
+
+    color:white;
+
+}
+
+.footer-info p{
+
+    color:#CBD5E1;
+
+    line-height:1.7;
+
+}
+
+.footer-bottom{
+
+    margin-top:60px;
+
+    border-top:1px solid rgba(255,255,255,.1);
+
+    padding:30px 0;
+
+    text-align:center;
+
+    color:#CBD5E1;
+
+}
