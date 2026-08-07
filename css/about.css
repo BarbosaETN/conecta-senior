@@ -1,0 +1,29 @@
+.about{
+
+    padding:100px 0;
+    background:var(--background-alt);
+
+}
+
+.section-title{
+
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+
+}
+
+.section-title h2{
+
+    font-size:2.5rem;
+    margin-bottom:24px;
+
+}
+
+.section-title p{
+
+    font-size:1.1rem;
+    color:var(--text-light);
+    line-height:1.8;
+
+}
