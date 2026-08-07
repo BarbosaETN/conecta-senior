@@ -1,0 +1,49 @@
+.header{
+
+    width:100%;
+    padding:25px 0;
+
+}
+
+.navbar{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.logo{
+
+    font-size:1.7rem;
+    font-weight:700;
+    color:var(--text);
+
+}
+
+.logo span{
+
+    color:var(--primary);
+
+}
+
+.menu{
+
+    display:flex;
+    gap:40px;
+
+}
+
+.menu a{
+
+    color:var(--text);
+    font-weight:500;
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    color:var(--primary);
+
+}
