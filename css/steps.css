@@ -1,75 +1,97 @@
-.steps{
+.steps {
 
-    padding:var(--section--spacing) 0;
+    position: relative;
 
-}
-
-.timeline{
-
-    margin-top:70px;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
+    padding: var(--section-spacing) 0 140px;
 
 }
 
-.step{
+.timeline {
 
-    flex:1;
+    margin-top: 70px;
 
-    text-align:center;
+    display: flex;
 
-}
+    justify-content: space-between;
 
-.step span{
-
-    width:70px;
-
-    height:70px;
-
-    border-radius:50%;
-
-    background:var(--primary);
-
-    color:white;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    margin:auto;
-
-    font-size:2rem;
-
-    font-weight:700;
-
-    margin-bottom:25px;
+    align-items: center;
 
 }
 
-.step h3{
+.step {
 
-    margin-bottom:15px;
+    flex: 1;
 
-}
-
-.step p{
-
-    color:var(--text-light);
+    text-align: center;
 
 }
 
-.line{
+.step span {
 
-    width:120px;
+    width: 70px;
+    height: 70px;
 
-    height:4px;
+    border-radius: 50%;
 
-    background:var(--primary-light);
+    background: var(--primary);
+
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto 25px;
+
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.step h3 {
+
+    margin-bottom: 15px;
+
+}
+
+.step p {
+
+    color: var(--text-light);
+
+    line-height: 1.7;
+
+    max-width: 240px;
+
+    margin: 0 auto;
+
+}
+
+.line {
+
+    flex: 1;
+
+    height: 4px;
+
+    background: var(--primary-light);
+
+    margin: 0 40px;
+
+}
+
+/* Divisor entre Steps e Closing */
+
+.steps::after {
+
+    content: "";
+
+    display: block;
+
+    width: 120px;
+
+    height: 2px;
+
+    background: #E2E8F0;
+
+    margin: 100px auto 0;
 
 }

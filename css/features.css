@@ -14,9 +14,17 @@
 
     gap:30px;
 
+    align-items: stretch;
+
 }
 
 .card{
+
+    display:flex;
+
+    flex-direction: column;
+
+    height: 100%;
 
     background:white;
 
@@ -26,7 +34,7 @@
 
     box-shadow:var(--shadow);
 
-    transition:.3s;
+    transition:var(--transaction);
 
 }
 
@@ -60,9 +68,13 @@
 
     line-height:1.7;
 
+    flex-grow: 1;
+
 }
 
 .card a{
+
+    margin-top: auto;
 
     color:var(--primary);
 
