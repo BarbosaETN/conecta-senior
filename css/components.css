@@ -58,3 +58,13 @@
     font-size:1.1rem;
 
 }
+
+.btn:focus-visible,
+.menu a:focus-visible,
+.card a:focus-visible {
+
+    outline: 3px solid var(--primary);
+
+    outline-offset: 4px;
+
+}

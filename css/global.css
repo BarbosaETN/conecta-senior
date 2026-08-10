@@ -36,3 +36,12 @@ ul{
     list-style:none;
 
 }
+
+a {
+    text-decoration: none;
+}
+
+a:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 4px;
+}
