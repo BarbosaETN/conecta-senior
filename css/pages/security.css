@@ -1,0 +1,317 @@
+.security-hero {
+
+    padding: 100px 0;
+
+    background: var(--primary);
+
+    color: white;
+
+}
+
+.security-hero-content {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 60px;
+
+}
+
+.security-hero h1 {
+
+    font-size: 3.5rem;
+
+    margin-bottom: 25px;
+
+}
+
+.security-hero p {
+
+    max-width: 650px;
+
+    font-size: 1.15rem;
+
+    line-height: 1.8;
+
+}
+
+.security-hero-icon {
+
+    width: 150px;
+
+    height: 150px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    font-size: 5rem;
+
+}
+
+.security-intro {
+
+    padding: var(--section-spacing) 0;
+
+}
+
+.security-content {
+
+    padding: 0 0 var(--section-spacing);
+
+}
+
+.security-cards {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+
+}
+
+.security-card {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 25px;
+
+    padding: 35px;
+
+    background: white;
+
+    border-radius: var(--radius);
+
+    box-shadow: var(--shadow-light);
+
+}
+
+.security-card-icon {
+
+    width: 65px;
+
+    height: 65px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background: var(--primary-light);
+
+    color: var(--primary);
+
+    font-size: 1.6rem;
+
+}
+
+.security-label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: var(--primary);
+
+    font-size: 0.9rem;
+
+    font-weight: 600;
+
+}
+
+.security-card h2 {
+
+    margin-bottom: 12px;
+
+}
+
+.security-card p {
+
+    color: var(--text-light);
+
+    line-height: 1.7;
+
+}
+
+.security-check {
+
+    padding: 0 0 var(--section-spacing);
+
+}
+
+.security-check-box {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    padding: 40px;
+
+    background: var(--primary-light);
+
+    border-radius: var(--radius);
+
+}
+
+.security-check-icon {
+
+    width: 70px;
+
+    height: 70px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background: white;
+
+    color: var(--primary);
+
+    font-size: 1.8rem;
+
+}
+
+.security-check-box h2 {
+
+    margin-bottom: 10px;
+
+}
+
+.security-check-box p {
+
+    color: var(--text);
+
+    line-height: 1.7;
+
+}
+
+.security-guide {
+    display: block;
+}
+
+.security-card-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    margin-bottom: 35px;
+
+}
+
+.security-card-header h2 {
+    margin-bottom: 0;
+}
+
+.security-guide-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+
+}
+
+.security-guide-section h3 {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 12px;
+
+}
+
+.security-guide-section h3 i {
+
+    color: var(--primary);
+
+    font-size: 1rem;
+
+}
+
+.security-guide-section p {
+
+    color: var(--text-light);
+
+    line-height: 1.7;
+
+}
+
+.security-guide-section ul {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+.security-guide-section li {
+
+    position: relative;
+
+    padding-left: 25px;
+
+    color: var(--text-light);
+
+    line-height: 1.6;
+
+}
+
+.security-guide-section li::before {
+
+    content: "•";
+
+    position: absolute;
+
+    left: 5px;
+
+    color: var(--primary);
+
+    font-weight: 700;
+
+}
+
+.security-action {
+
+    padding: 25px;
+
+    background: var(--primary-light);
+
+    border-radius: var(--radius);
+
+}
