@@ -47,3 +47,41 @@
     color:var(--primary);
 
 }
+
+.menu-toggle {
+
+    display: none;
+
+    border: none;
+
+    background: transparent;
+
+    color: var(--text);
+
+    font-size: 1.6rem;
+
+    cursor: pointer;
+
+    padding: 8px;
+
+    border-radius: 8px;
+
+    transition: var(--transition);
+
+}
+
+.menu-toggle:hover {
+
+    background: var(--primary-light);
+
+    color: var(--primary);
+
+}
+
+.menu-toggle:focus-visible {
+
+    outline: 3px solid var(--primary);
+
+    outline-offset: 3px;
+
+}
