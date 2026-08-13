@@ -31,8 +31,6 @@ const resultTitle = resultSection.querySelector("h2");
 
 const resultText = resultSection.querySelector("p");
 
-const resultIcon = resultSection.querySelector("i");
-
 const resultButton = document.querySelector(".quiz-actions .btn");
 
 function getAnswers() {
@@ -77,7 +75,7 @@ resultButton.addEventListener("click", () => {
   let title;
   let message;
 
-  if (score === 5) {
+  if (score === questions.length) {
     title = "🎉 Excelente!";
 
     message =
