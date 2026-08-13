@@ -113,3 +113,10 @@ conecta-senior/
 ├── index.html
 ├── .gitignore
 └── README.md
+```
+
+## 🌐 Projeto publicado
+
+Acesse o ConectaSênior:
+
+https://barbosaetn.github.io/conecta-senior/
